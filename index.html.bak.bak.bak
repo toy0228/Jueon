@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  contents:
+  min-height:50px;
+  padding:50px;
+  background-color:green
+<style>
+body {
+margin : 0px;
+padding :0px;
+background-color : black; 
+}
+a {
+ color:white;}
+.banner {
+  background-image:url("image/2.jpeg");
+  width:auto;
+  height:300px;
+  text-align:center;
+  font-size:50px;
+  color:blue;
+  padding-top:75px;
+  }
+.side {
+  float:right;
+  border:1px solid blue;
+  padding:10px;
+  margine:10px;
+  font-size16px;
+  color:green
+  }
+</style>
+  <title>yunplace</title>
+ </head>
+ <body>
+ <div class=banner>
+ <p> YUN PLACE</p>
+ <p> Fresh Food & More!</p>
+ </div>
+<div second area> 
+ <a href="menu.html">rice & coffee</a> / <a href="reservationqa.html">reservation q&a</a> /<a href="direction.html">coming to yunplace</a>
+</div>
+<div class=side>
+<p>the freash material</p>
+<p>the lowest prize</p>
+<p>kind service </p>
+<p>questions and answers 12488568300 </p>
+<img src="image/1.jpg" height=300>
+</div>
+<div class:contents>
+<p> The yun is a great place to eat rice,dumpling,and more even a bread!<br/>
+and there are so many things that you haven't tried!<br/>
+and also you can eat ouside it ia alwast ready every day 7 days !<br/>
+times 1:00am -9:00pm </p>
+<p>
+<img src="image/KFSw6630.jpg" height=300px>
+</div>
+<p>
+<a href=""reservationqa.html">reservation q&a</a>
+<div fifth area>
+<p> business certification 111-111-0330</p>
+</div>
+ </body>
+</html>
