@@ -6,18 +6,16 @@
  <body>
 <style>
 #table_1 {
- <p> CAVE </p>
 background-color: black;
 border: 4px solid black;
  widith: 420px;
  height: 500px;
  color: white;
- text align:center;
+ text-align: center;
  }
 </style>
   
-  <div id="table_1"></div>
-  
+  <div id="table_1">
   <h2>cave cl</h2>
   <hr>
   
@@ -36,6 +34,7 @@ function begin001() {
  document.getElementById("question01").innerHTML = "what is 5+5?" + "<br /><br /><br />" + "<button onclick=function1() id=q1>10</button><br />" + "<button onclick=function2() id=q2>8</button><br />" + "<button onclick=function3() id=q3>25</button><br />";
  document.getElementById("starter01").innerHTML = "";
 }
+</div>
 function function1() {
 document.getElementById("question01").innerHTML= "correct";
 document.getElementById("starter01").innerHTML = "";
@@ -43,5 +42,6 @@ document.getElementById("n001").innerHTML= "<button onclick=nxt1()>Next</button>
 }
 
  </script>
+   
   
 
