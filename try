@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+ <title>log in page</title>
+ </head>
+ <body>
+      <form name="loginform">
+                username: <input type="text" name="username"/><br/>
+                password: <input type="password" name= "pass"/><br/>
+               <input type=reset"/> <input type="submit value="log in="" " />
+                    <form
