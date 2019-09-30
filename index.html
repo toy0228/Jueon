@@ -182,6 +182,30 @@ document.getElementById("starter01").innerHTML = "";
 document.getElementById("n001").innerHTML= "<button onclick=nxt9()>Next</button><br />";
 }
 function nxt9() {
+document.getElementById("question01").innerHTML = "you have 13 apples in a market you got 5 more the next day how many do you have in all?" + "<br /><br /><br />" + "<button onclick=function25() id=q1>60</button><br />" + "<button onclick=function26() id=q2>18</button><br />" + "<button onclick=function26() id=q3>2</button><br />";
+document.getElementById("starter01").innerHTML = "";
+}
+function function25() {
+document.getElementById("question01").innerHTML= "incorrect";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML= "<button onclick=nxt9()>Next</button><br />";
+}
+function function26() {
+document.getElementById("question01").innerHTML= "incorrect";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML= "<button onclick=nxt10()>Next</button><br />";
+}
+function function27() {
+document.getElementById("question01").innerHTML= "correct";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML= "<button onclick=nxt10()>Next</button><br />";
+}
+function function28() {
+document.getElementById("question01").innerHTML= "incorrect";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML= "<button onclick=nxt10()>Next</button><br />";
+}
+function nxt10() {
 document.getElementById("Question01").innerHTML = "";
  document.getElementById("msg01").innerHTML = "End of Quiz.";
  document.getElementById("n001").innerHTML = "";
